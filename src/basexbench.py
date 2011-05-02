@@ -76,4 +76,4 @@ class BasexSession(TestSession):
         query.close()
         
 if __name__ == '__main__':
-    bench(TestSession())
+    bench(BasexSession())
